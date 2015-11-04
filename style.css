@@ -89,3 +89,23 @@ ul {
     background-color: black;
     text-align: center;
 }
+/*  #Desktop 
+================================================== */
+
+    .mobile {
+        display: none;
+        }
+     .desktop {
+        display: block;
+        }  
+
+    /*  #Mobile 
+    ================================================== */
+    @media only screen and (max-width: 480px) {
+        .desktop {
+        display: none;
+        }    
+
+    .mobile {
+        display: block;
+        }   
