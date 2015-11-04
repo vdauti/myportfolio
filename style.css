@@ -1,0 +1,91 @@
+style.css
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+ 
+#header {
+	background-color: white;
+	color:white;
+	text-align: right;
+}
+
+#container {
+	background-color:#484848 ;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+head{
+	background-color: black;
+	color:black;
+}
+
+body {
+	background: url(http://dc776.4shared.com/img/RO-86LHgba/s7/150d3553078/skyscraper-05?async=&rand=0.01635162439197302);
+    margin: 1;
+    padding: 1;
+    font-family: Open Sans Condensed, Arial, Sans-serif;
+    color:white;
+
+}
+
+#nav {
+	display: inline;
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+	list-style-type: none;
+	padding:0;
+	display: vertical;
+}
+
+h1,	h2,	h3 {
+	border:10;
+	border-color:black;
+	margin: 10;
+}
+
+p{
+	line-height: -20px;
+}
+
+a{
+	text-decoration: blink;
+	color: red;
+	background-color:transparent;
+}
+
+#nav .selected{
+	font-weight: bold;
+}
+
+#main{
+	width: 600px
+	float:right;
+}
+
+ul {
+    list-style-position: inside;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.links {
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+#content {
+    padding: 10px;
+}
+
+#footer {
+    clear: both;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
