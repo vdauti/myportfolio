@@ -3,7 +3,7 @@ style.css
  
 #header {
 	background-color: black;
-	color:black;
+	color:blackyy;
 	text-align: right;
 }
 
@@ -30,23 +30,24 @@ body {
 }
 
 #nav {
-	display: inline;
-    width: 180px;
+    display: inline;
+    width: 100px;
     float: left;
 }
 
 #nav ul {
-	list-style-type: none;
-	padding:0;
-	display: vertical;
+    list-style-type: none;
+    padding:0;
+    display: horizontal;
 }
-
 h1,	h2,	h3 {
 	border:10;
 	border-color:black;
 	margin: 10;
 }
-
+h1{
+	position: center;
+}
 p{
 	line-height: -20px;
 }
@@ -62,7 +63,7 @@ a{
 }
 
 #main{
-	width: 600px
+	width: 600px;
 	float:right;
 }
 
