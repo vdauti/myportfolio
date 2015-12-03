@@ -3,7 +3,7 @@ style.css
  
 #header {
 	background-color: black;
-	color:blackyy;
+	color:black;
 	text-align: right;
 }
 
@@ -23,7 +23,8 @@ head{
 body {
 	background: url(http://dc776.4shared.com/img/RO-86LHgba/s7/150d3553078/skyscraper-05?async=&rand=0.01635162439197302);
     margin: 1;
-    padding: 1;
+    margin-right: 5px;
+    padding: 1px;
     font-family: Open Sans Condensed, Arial, Sans-serif;
     color:white;
 
