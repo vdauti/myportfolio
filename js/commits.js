@@ -20,7 +20,7 @@ $(document).ready(function() {
     var messageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
 
-    return $("<tr>").append(shaTd)
+    return $("<tr>").append(valTd)
       .append(authorTd)
       .append(messageTd)
       .append(dateTd);
