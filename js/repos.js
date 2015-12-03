@@ -14,7 +14,7 @@ $(document).ready(function() {
   });
 
   function buildListGroup(repoData) {
-    var commitsApiUrl = "https://api.github.com/users/vdauti/repos/";
+    var commitsApiUrl = "https://api.github.com/repos/";
     commitsApiUrl += repoData.owner.login + "/";
     commitsApiUrl += repoData.name + "/commits";
 

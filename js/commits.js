@@ -15,12 +15,13 @@ $(document).ready(function() {
   });
 
   function addTableRow(commitData) {
-    var valTd = $("<td>").append(commitData.val);
-    var authorTd = $("<td>").append(commitData.author.login);
+console.log(commitData);
+    var shaTd = $("<td>").append(commitData.sha);
+    var authorTd = $("<td>").append(commitData.commit.author.name);
     var messageTd = $("<td>").append(commitData.commit.message);
     var dateTd = $("<td>").append(commitData.commit.author.date);
 
-    return $("<tr>").append(valTd)
+    return $("<tr>").append(shaTd)
       .append(authorTd)
       .append(messageTd)
       .append(dateTd);
